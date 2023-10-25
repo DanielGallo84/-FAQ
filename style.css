@@ -1,0 +1,63 @@
+/*section{
+    display: flex;
+
+}
+.aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create a basic layout with a sidebar and content */
+.container {
+    display: flex;
+    
+}
+.aside {
+    width: 250px;
+    background-color: white;
+    color: black;
+    
+    border: 1px solid black;
+}
+.sidebar {
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the sections */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
