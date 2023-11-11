@@ -21,6 +21,13 @@
     display: flex;
     
 }
+p{
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+
 .aside {
     width: 250px;
     background-color: white;
@@ -31,10 +38,11 @@
 .sidebar {
     width: 200px;
     background-color: white;
-    color: black;
+    
     padding: 20px;
     border: 1px solid black;
 }
+
 
 .sidebar ul {
     list-style: none;
