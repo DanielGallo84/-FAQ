@@ -9,16 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="aside">
+        <aside>
         <nav class="sidebar">
             <ul>
+                <li><h2>Documentation Menu</h2></li>
                 <li><a href="#section1">Desarrollo web Front-end</a></li>
                 <li><a href="#section2">Conceptos básicos de HTML</a></li>
-                <li><a href="#section3">Section 3</a></li>
-                <li><a href="#section4">Section 4</a></li>
+                <li><a href="#section3">CSS</a></li>
+                <li><a href="#section4">JavaScript</a></li>
             </ul>
         </nav>
-    </div>
+    </aside>
         <div class="content">
             <section id="section1">
                 <h2>Desarrollo web Front-end</h2>
@@ -60,10 +61,11 @@
 
     Entonces, ¿qué es HTML en realidad?
     HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:</p>
-        <p>
-            Las partes principales del elemento son:
+        
+            <h3>Las partes principales del elemento son:</h3>
 
-La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
+<p>La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.</p>
+<p>
 La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
 El contenido: este es el contenido del elemento, que en este caso es sólo texto.
 El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
@@ -71,12 +73,58 @@ El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el conten
         </p>
             </section>
             <section id="section3">
-                <h2>Section 3</h2>
-                <p>This is the content of section 3.</p>
+                <h2>CSS</h2>
+                <p>Las Hojas de estilo en cascada (del ingles Cascading Stylesheets CSS) es la siguiente tecnología que aprenderemos después de HTML. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos..</p>
+                <h3>Itinerario de aprendizaje</h3>
+                <p>Antes de empezar con CSS deberemos conocer los fundamentos de HTML. Podemos trabajar este contenido en introducción a HTML para posteriormente aprender:</p>
+                
+                    <p>CSS, comenzando por el módulo de Introducción a CSS</p>
+                    <p>Módulos HTML más avanzados</p>
+                    <p>JavaScript, y cómo usarlo para añadir funcionalidad dinamica a las pagina web</p>
+                    <p>Se recomienda aprender HTML y CSS al mismo tiempo, trabajando de forma conjunta ambas disciplinas. CSS aporta un valor añadido a HTML y no podrás aprender CSS sin controlar HTML.
+                    </p>
+                <p>
+                    Antes de comenzar con este tema, deberemos tener conocimientos básicos sobre el uso de ordenadores y sobre el uso pasivo de la Web (navegar y consumir contenido). Es recomendable tener configurado un entorno de desarrollo como el detallado en Instalación de software básico, y saber crear y gestionar archivos como se detalla en Manejando archivos — ambos forman parte del módulo Primeros pasos en la Web para principiantes.
+                </p> 
+                    Se recomienda trabajar el módulo Primeros pasos en la Web antes de entrar a este tema, aunque no es completamente necesario; gran parte de lo tratado en el artículo de CSS básico también se trata en el módulo de introducción a CSS, aunque con mucho más detalle.</p>
+                
+                <h3>Módulos</h3>
+                <p>Este tema contiene los siguientes módulos en el orden recomendado de aprendizaje. Recomendamos comenzar por el primero. </p>
+
+                    <h4>Introducción a CSS</h4>
+                    <p>Este módulo explica los conceptos básicos sobre el funcionamiento de CSS, incluyendo selectores y propiedades, escritura de reglas CSS, aplicación de CSS a HTML, cómo especificar longitud, color y otras unidades en CSS, organización en cascada y herencia, conceptos de encajonado básicos y depuración de CSS.</p>
+                    
+                    <h4>Estilos por cajas</h4>
+                    <p>A continuación veremos la aplicación de estilos por cajas, fundamental en el diseño de páginas web. En este módulo analizaremos el modelo de cajas para después aprender a controlar el diseño de las cajas ajustando rellenos, marcos y márgenes, personalizando colores de fondo, imágenes y otras características, además de divertidas funcionalidades como el sombreado y los filtros sobre las cajas.
+                    </p>
+                    <h4>Estilo del texto</h4>
+                    <p>Aquí veremos cómo aplicar estilos al texto, tipos de letra, negrita, cursiva, espaciado, interlineado y sombreado, entre otras funciones relativas al texto. Terminaremos el módulo aplicando tipos a nuestra página, configurando listas y enlaces.</p>
+                    
+                    <h4>Diseño CSS</h4>
+                    <p>Llegados a este punto ya conocemos lo básico de CSS, como darle estilo al texto, y cómo dar estilo y manipular el contenido de las cajas. Es momento de ver cómo ubicar las cajas correctamente con respecto a la ventana de visualización y a otra. Hemos cubierto los requisitos necesarios para poder meternos de lleno en el diseño CSS, ver diferentes ajustes de visualización, metodos tradicionales de diseño con pivotes y posicionamiento, y nuevas herramientas de diseño como flexbox.
+                    </p>
+                    <h4>Diseño Adaptable (RBD Responsive Web Design)</h4>
+                    <p>(RWD) es una habilidad imprescindible para el diseño web. En este módulo veremos principios básicos y herramientas de RWD, como aplicar diferentes CSS a un documento dependiendo de las características del dispositivo como el ancho de la pantalla, la orientación y la resolución; veremos las tecnologías disponibles para mostrar videos e imágenes dependiendo de estas características.</p>
             </section>
             <section id="section4">
-                <h2>Section 4</h2>
-                <p>This is the content of section 4.</p>
+                <h2>Javascript</h2>
+                <p>JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado.
+                </p>
+                <h3>Módulos</h3>
+                <h4>Primeros pasos en JavaScript</h4>
+                <p>En nuestro primer módulo de JavaScript, primero respondemos algunas preguntas fundamentales como "¿qué   es JavaScript?", "¿Cómo se ve?" y "¿qué puede hacer?", antes de pasar a guiarte por tu primera experiencia práctica de escribir JavaScript. Después de eso, discutimos en detalle algunas características clave de JavaScript, tal como variables, cadenas, números y arreglos. </p>
+                    
+                    <h4>Bloques de construcción de JavaScript</h4>
+                    <p>En este módulo, continuamos con nuestra cobertura de todas las características fundamentales clave de JavaScript, centrando nuestra atención en los tipos de bloques de código que se encuentran comúnmente, como declaraciones condicionales, bucles, funciones y eventos. Ya has visto estas cosas en el curso, pero solo de pasada; aquí lo discutiremos todas explícitamente.</p>
+                    
+                    <h4>Introducción a los objetos JavaScript</h4>
+                    <p>En JavaScript, la mayoría de las cosas son objetos, desde las características principales de JavaScript como cadenas y arreglos hasta las APIs del navegador creadas sobre JavaScript. Incluso puedes crear tus propios objetos para encapsular funciones y variables relacionadas en paquetes eficientes. Es importante comprender la naturaleza orientada a objetos de JavaScript si deseas ir más allá con tu conocimiento del lenguaje y escribir código más eficiente, por lo tanto, te proporcionamos este módulo para ayudarte. Aquí enseñamos la teoría y la sintaxis de objetos en detalle, vemos cómo crear tus propios objetos y explicamos qué son los datos JSON y cómo trabajar con ellos.</p>
+                    
+                    <h4>JavaScript asíncrono</h4>
+                    <p>En este módulo, echamos un vistazo a JavaScript asíncrono, por qué es importante y cómo se puede utilizar para manejar de forma eficaz posibles operaciones de bloqueo, como la obtención de recursos desde un servidor.</p>
+                    
+                    <h4>APIs web de lado del cliente</h4>
+                    <p>Al escribir JavaScript de lado del cliente para sitios web o aplicaciones, no irás muy lejos antes de comenzar a usar las APIs — interfaces para manipular diferentes aspectos del navegador y el sistema operativo en el que se ejecuta el sitio, o incluso datos de otros sitios web o servicios. En este módulo, exploraremos qué son las APIs y cómo utilizar algunas de las APIs más populares que encontrarás a menudo en tu trabajo de desarrollo.</p>
             </section>
         </div>
     </div>
